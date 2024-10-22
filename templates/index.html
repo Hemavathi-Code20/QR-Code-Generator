@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code</title>
+    <link rel="stylesheet" href="../static/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Generate <span style="color: teal">QR </span> Code</h1>
+    </div>
+    <form action="/" method="POST" class="form-content">
+      <input type="text" name="link" placeholder="Enter URL or text" />
+      <button type="submit">Generate</button>
+    </form>
+    <div class="generated">
+      {% if data %}
+      <img src="{{ data }}" alt="Generated QR Code" />
+      {% endif %}
+    </div>
+  </body>
+</html>
