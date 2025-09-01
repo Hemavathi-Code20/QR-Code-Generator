@@ -31,8 +31,4 @@ Simple and efficient, making QR code creation quick and accessible for anyone.
 4. Open your browser and go to:
    ```bash
    http://127.0.0.1:5000/
-
-   ```
-   
-## Enter a URL or text, and your QR code will be generated instantly.
   
