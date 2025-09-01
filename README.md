@@ -9,8 +9,6 @@ Simple and efficient, making QR code creation quick and accessible for anyone.
 - Generate QR codes from **URLs** or **plain text**
 - Instant QR code creation via a simple web interface
 - Lightweight and easy to use
-- Deployable to **Heroku** (Procfile included)
-
 ---
 
 ## 🛠️ Installation
@@ -35,4 +33,9 @@ Simple and efficient, making QR code creation quick and accessible for anyone.
    ```bash
    python main.py
 
+5. Open your browser and go to:
+   ```bash
+   http://127.0.0.1:5000/
+
+6. Enter a URL or text, and your QR code will be generated instantly.
   
