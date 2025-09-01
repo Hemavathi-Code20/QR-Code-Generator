@@ -28,7 +28,7 @@ Simple and efficient, making QR code creation quick and accessible for anyone.
    ```bash
    python main.py
 
-4. Open your browser and go to:
+4. Open your browser and go to
    ```bash
    http://127.0.0.1:5000/
   
