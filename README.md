@@ -13,29 +13,24 @@ Simple and efficient, making QR code creation quick and accessible for anyone.
 
 ## 🛠️ Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/QR-Code-Generator.git
-   cd QR-Code-Generator
-
-2. Create a virtual environment
+1. Create a virtual environment
    ```bash
    python -m venv venv
    source venv/bin/activate   # On Linux/Mac
    venv\Scripts\activate      # On Windows
 
-3. Install the required dependencies
+2. Install the required dependencies
    ```bash
    pip install qrcode
    pip install -r requirements.txt
 
-4. Run the app
+3. Run the app
    ```bash
    python main.py
 
-5. Open your browser and go to:
+4. Open your browser and go to:
    ```bash
    http://127.0.0.1:5000/
 
-6. Enter a URL or text, and your QR code will be generated instantly.
+5. Enter a URL or text, and your QR code will be generated instantly.
   
